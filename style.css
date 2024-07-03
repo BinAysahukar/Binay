@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0px 0px;
+    scroll-behavior: smooth;
+    background-color: rgb(0, 0, 0);
+    overflow:auto;
+}
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(117, 117, 115, 0.589);
+    border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+    background-color: rgb(0, 0, 0);
+}
+.page1{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.latter{
+    position: absolute;
+    margin: 16rem 20rem;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+    font-size:xxx-large;
+    height: 120px;
+    width: 200px;
+    color:blanchedalmond;
+    text-shadow: 2px 2px 10px blanchedalmond;
+}
+nav{
+    margin: 1%;
+    color:blanchedalmond; 
+    font-family: 'Amatic SC', cursive;
+    position:fixed;
+    z-index: 1;
+    right: 1rem;
+}
+.nevigation{
+    text-decoration: none;
+    color:blanchedalmond; 
+    font-size: x-large;
+}
+.nevigation:hover{
+    text-decoration:overline;
+}
+/*********************************************************************************************/
+.star{
+    position: absolute;
+    color: antiquewhite;
+    top: 8%;
+    left: 10%;
+    font-size: xx-large;
+    animation: s1 5s  infinite ease-in-out;
+    text-align: center;
+}/* @keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+.star1{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    font-size:xx-small; 
+    text-align: center;
+    color: #fff;
+    animation: s1 1s infinite ease;
+}
+
+.star2{
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    font-size:small; 
+    text-align: center;
+    color: #fff;
+    animation: s1 3s infinite ease;
+}
+.star3{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    font-size: small; 
+    text-align: center;
+    animation: s1 10s infinite ease;
+    color: #fff;
+}
+
+@keyframes s1{
+    0%,100%{
+        text-shadow: 3px 0px 50px rgb(255, 255, 255);
+    }
+    50%{ text-shadow: 3px 0px 10px blanchedalmond;}
+}
+
+.moon{
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    font-size: xxx-large; 
+    text-align: center;
+    text-shadow: 2px 2px 10px blanchedalmond;
+    color: #fff;
+}
+
+/*page2*/
+
+.page2{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow:hidden;
+}
+
+.para{
+    position: absolute;
+    justify-content: center;
+    /* background-color: #fff; */
+    font-family: 'Amatic SC', cursive;
+    margin:8% 20%;
+    color: #fff;
+}
+.para p{
+    color:blanchedalmond; 
+    font-size: xx-large;
+}
+.para h1{
+    color:blanchedalmond; 
+    margin-left: 45%;
+}
+.earth{
+    position: absolute;
+    background: url(./earth.png) no-repeat center / cover;
+    height:100px;
+    width: 100px;
+    bottom:-1rem;
+    right: 29rem;
+    z-index: 99;
+    box-shadow: 2px 2px 10px blanchedalmond;
+    border-radius: 50px;
+    /* position:relative; */
+}
+.earth1{
+    position: absolute;
+    background: url(./earth.png) no-repeat center / cover;
+    height:100px;
+    width: 100px;
+    top: -5.234rem;
+    right: 29rem;
+    z-index: 99;
+    box-shadow: 2px 2px 10px blanchedalmond;
+    border-radius: 50px;
+    /* position:relative; */
+}
+
+.rocat{
+    position:absolute;
+    color: rgb(255, 255, 255);
+    height: 28px;
+    width: 28px; 
+    margin-left:83rem;
+    margin-top: 73rem;
+        /* left:97.69%;
+        bottom: 60%; */
+    font-size: xx-large;
+    /* animation: flay 15s ease infinite; */
+    
+}
+
+@keyframes flay {
+    0%{
+        margin-left:80rem;
+        margin-top: 70rem;
+       
+    }
+    50%{
+        margin-left:30rem;
+        margin-top: 20rem;
+    }
+    100%{
+        /* margin-left:45rem;
+        margin-bottom: -35rem; */
+        margin-left:-10rem;
+        margin-top: -20rem;
+    }
+}
+
+/**page2 end*/
+/**page3 start**/
+.page3{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    color: blanchedalmond;
+    font-family: 'Amatic SC', cursive;
+}
+.bca{
+    position:absolute;
+    height: 15%;
+    width: 20%;
+    left:10%;
+    bottom: 50%;
+    /* color: blanchedalmond;
+    font-family: 'Amatic SC', cursive; */
+}
+.vijc{
+    position:absolute;
+    height: 15%;
+    width: 20%;
+    left:40%;
+    bottom: 50%;
+    /* color: blanchedalmond;
+    font-family: 'Amatic SC', cursive; */
+}
+.metric{
+    position:absolute;
+    height: 15%;
+    width: 20%;
+    right:9%;
+    bottom: 50%;
+}
+/**page3 end**/
+/*************************************************************************************************/
+@media only screen and (max-width:780px) {
+    .latter{
+     margin:16rem 8rem;
+    }
+    .para p{
+        font-size: x-large;
+    }
+    .para{
+        margin-top: 9rem;
+    }
+    .para h1{
+        color:blanchedalmond; 
+        margin-left: 35%;
+    }
+    .rocat{
+        margin-left:46rem;
+        margin-top: 50rem;
+        /* margin-left:46rem;
+        margin-top: 60rem; */
+    }@keyframes flay {
+        0%{
+            margin-left:46rem;
+            margin-top: 50rem;
+        }
+        50%{
+            margin-left:16rem;
+            margin-top: 20rem;
+        }
+        100%{
+            margin-left:-4rem;
+            margin-top: 0rem;
+        }
+    }
+    }
+@media only screen and (max-width:980px) {
+        .latter{
+         margin-left: 10rem;
+         margin-top: 50rem;
+         font-weight: 900;
+         font-size:130px;
+          height: 300px;
+          width: 450px;
+    }
+    nav{
+    margin: 1%;
+    color:blanchedalmond; 
+    font-family: 'Amatic SC', cursive;
+    position:fixed;
+    z-index: 1;
+    right: 1rem;
+    font-size:40px;
+}
+.nevigation{
+    text-decoration: none;
+    color:blanchedalmond; 
+    font-size:65px;
+}
+.star{
+    font-size:100px;
+}
+.star1{
+    font-size:30px; 
+}
+.star2{
+    font-size:25px;
+}
+.star3{
+    bottom: 50%;
+    left: 70%;
+    font-size:20px; 
+}
+
+
+
+  /**page2**/
+      .para p{
+        font-size:60px;
+    }
+    .para{
+        margin: 50% 20%;
+        width: 70%;
+    }
+    .para h1{
+        color:blanchedalmond; 
+        margin-left: 35%;
+        font-size: 60px;
+    }
+    .bca{
+        left:30%;
+        bottom: 70%;
+        width: 50%;
+    }
+    .vijc{
+        left: 30%;
+        width: 50%;
+        bottom: 40%;
+    }
+    .metric{
+        left: 30%;
+        width: 50%;
+        bottom: 20%;
+    }
+    .rocat{
+        height: 58px;
+        width: 58px; 
+        margin-left:65rem;
+        margin-top: 85rem;
+            /* left:97.69%;
+            bottom: 60%; */
+        font-size: xx-large;
+        animation: flay 15s ease infinite;
+        
+    }
+    
+    @keyframes flay {
+        0%{
+            margin-left:70rem;
+            margin-top: 90rem;
+           
+        }
+        50%{
+            margin-left:30rem;
+            margin-top: 50rem;
+        }
+        100%{
+            /* margin-left:45rem;
+            margin-bottom: -35rem; */
+            margin-left:-40rem;
+            margin-top: -20rem;
+        }
+    }
+
+  
+}
